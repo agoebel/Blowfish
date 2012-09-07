@@ -1,9 +1,6 @@
 INTRODUCTION
 ============
-Blowfish is a symmetric-key block cipher designed by Bruce Schneier in 1993. It uses a variable
-key length and valid keys have between 32- and 448-bits. He marketed it as a replacement for
-DES and IDEA that could be immediately dropped-in. Blowfish is license and patent free for any
-use.
+Blowfish is a symmetric-key block cipher designed by Bruce Schneier in 1993. It uses a variable key length and valid keys have between 32- and 448-bits. He marketed it as a replacement for DES and IDEA that could be immediately dropped-in. Blowfish is license and patent free for any use.
 
 Takes a single command line argument of the key in hex [16 hex characters].  It then reads the message as ASCII characters from standard input until end-of-file on standard input.
 Each block is 8 characters [64 bits] split into 2 32-bit pieces
